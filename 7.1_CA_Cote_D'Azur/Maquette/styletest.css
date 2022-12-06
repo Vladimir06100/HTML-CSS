@@ -1,0 +1,139 @@
+* {
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+    font-family:  sans-serif;
+}
+/* .un{
+    display: flex;
+    align-items: center;
+flex-direction: column;
+justify-content: center;
+height: fit-content;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background: #389DB4;
+    text-align: center;
+    border: 1px solid #000
+}
+
+.absoluteLeftBottom {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    left: 95px;
+    top: 10px;
+    
+    }
+      
+      .absoluteRightBottom {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    right: 95px;
+    top: 10px;
+    z-index: -1;
+    }
+
+    .base{
+        display: flex;
+    }
+
+
+ */
+
+/* 1 */
+
+
+/*     #page-wrap { width: 300px; margin: 80px auto; }
+
+aside {
+  display: block;
+  position: relative;
+  margin: 0 0;
+}
+
+.a, aside h3 {
+  font: bold 12px Sans-Serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #369;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+}
+
+
+
+aside {
+  border-left: 34px solid #369;
+  padding-left: 10px;
+}
+.rot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+} */
+
+body{
+background-color: brown;
+}
+
+.q{
+position: relative;
+margin: 50px;
+padding: 10px;
+background-color: blueviolet;
+}
+
+.w{
+padding:2px;
+background-color: rgb(47, 193, 120);
+}
+
+.e{
+display: flex;
+background-color: cadetblue;
+}
+
+.r{
+display: flex;
+justify-content: flex-end;
+padding: 2px;
+background-color: yellow;
+writing-mode: vertical-rl;
+transform: rotate(180deg);
+}
+.t{
+padding: 10px;
+background-color: coral;
+}
+
+.car1{
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.car2{
+    float:right;
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -2;
+}

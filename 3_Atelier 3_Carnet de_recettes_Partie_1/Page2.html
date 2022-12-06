@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Recette 1</title>
+</head>
+<body>
+    <Header>
+        <h1>Restaurant</h1>
+        <h3>Menu</h3>
+    </Header>
+    <nav>
+        <li><a href="index.html">Page Principale</a></li>
+            <ul>
+                <li><a href="Page2.html">Recette 1</a></li>
+                <li><a href="page3.html">Recette 2</a></li>
+            </ul>
+    </nav>
+    <div id="contact">
+        <h2>Nous contacter</h2>
+        <form action="#" method="get">
+            <fieldset>
+                <label for="nom">Pseudo</label>
+                <input id="nom" placeholder="Votre Pseudo" type="text" />
+            
+                <label for="email">Email</label>
+                <input id="email" placeholder="Votre email" type="email" />
+                
+                <label for="interet">Note  </label>
+                <select id="interet" name="interet" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <label for="message">Commentaire</label>
+                <textarea id="message" placeholder="Voulez-vous nous dire?" class="clearfix"></textarea>
+                
+                <input value="Envoyer" type="submit" />
+                
+            </fieldset>
+        </form>
+    </div>
+    <main id="recette1">
+       <div class="recette"> 
+            <h4>Recette 1</h4>
+            <p>Lors de cet atelier, vous allez réaliser un site de recettes de cuisine. Commencez par créer un nouveau dossier, une nouvelle page d'accueil index.html ainsi que 2 autres pages (une pour chaque recette). Chaque page devra, bien sûr, être structurée correctement comme vu lors des ateliers précédents (doctype, balises html, head et body).</p>
+            <p>Ingrediants</p>
+        </div>
+        <div class="ingrediants">
+            <ul> 
+                <li>Lait</li>
+                <li>Ble</li>
+                <li>Raisin</li>
+                <li>Eau</li>
+                <li>Sucre</li>
+            </ul>
+        </div>
+        <div class="preparation">
+            <ol>
+                <li>melanger</li>
+                <li>melanger</li>
+                <li>melanger</li>
+                <li>melanger</li>
+                <li>melanger</li>
+            </ol>
+        </div>
+        <section class="src">
+            <video src="zn2igs2m1z7ipic3wduae1628600233229.mp4" controls width="400" height="400">Voici comment</video>
+
+            <img src="33024989.webp" alt="recette1" width="400" height="400">
+        </section>
+    </main>
+<footer>
+    <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+</footer>
+</body>
+</html>

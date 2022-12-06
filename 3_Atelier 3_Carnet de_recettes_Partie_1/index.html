@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Page 1</title>
+</head>
+<body>
+    <Header>
+        <h1>Restaurant 1</h1>
+        <h3>Menu</h3>
+    </Header>
+    <nav>
+        <ul>
+            <li><a href="Page2.html">Recette 1</a></li>
+            <li><a href="page3.html">Recette 2</a></li>
+            <li><a href="index.html">Page Principale</a></li>
+        </ul>
+    </nav>
+    <div id="contact">
+        <h2>Nous contacter</h2>
+        <form action="#" method="get">
+            <fieldset>
+                <label for="nom">Pseudo</label>
+                <input id="nom" placeholder="Votre Pseudo" type="text" />
+            
+                <label for="email">Email</label>
+                <input id="email" placeholder="Votre email" type="email" />
+                
+                <label for="interet">Note  </label>
+                <select id="interet" name="interet" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <label for="message">Commentaire</label>
+                <textarea id="message" placeholder="Voulez-vous nous dire?" maxlength="200"></textarea>
+                
+                <input value="Envoyer" type="submit" />
+                
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+    </footer>
+</body>
+</html>

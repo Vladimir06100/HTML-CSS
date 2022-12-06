@@ -1,0 +1,72 @@
+.div1 {
+    background-color: blue;
+    padding: 40px 40px 40px 40px;
+  }
+  
+  .absoluteLeft {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .absoluteLeftBottom {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .absoluteRightBottom {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .absoluteRight {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .absoluteMiddle {
+    background-color: purple;
+    padding: 40px 40px 40px 40px;
+    position: absolute;
+    right: 50%;
+    top: 40%;
+  }
+  
+  .margin {
+    margin-top: 5%;
+  }
+  .displayGreen {
+    display: inline-flex;
+  }
+  
+  .greenDiv {
+    background-color: green;
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    margin-right: 2%;
+    margin-top: 5%;
+  }
+  
+  .divBlue {
+    background-color: blue;
+    padding: 40px 40px 40px 40px;
+  }
+  
+  .divRed {
+    background-color: red;
+    padding: 40px 40px 40px 40px;
+    position: relative;
+    top: -80px;
+    margin-left: 47%;
+  }

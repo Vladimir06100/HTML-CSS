@@ -1,0 +1,75 @@
+/* en tete */
+.en_tete{
+    display: flex;
+    flex-direction: column;
+}
+.img_principale {
+    width: 150px;
+    margin: auto;
+}
+.h1{
+    color: #D82C2C;
+    margin: 20px auto;
+}
+/* fin en tete */
+
+
+.container{
+    display: flex;
+    /* flex-flow: wrap; */
+    justify-content: space-around;
+}
+.deuxieme{
+    background-color: rgb(243, 234, 234);
+}
+.note {
+    display: flex;
+    justify-content: space-between;
+    color: #D82C2C;
+    margin: 0 30px;
+}
+.critique{
+    color: black;
+}
+.critique::first-letter{
+    color: #D82C2C;
+}
+/* HOVER CARTES */
+.film{
+    border-left: solid 10px #D82C2C;
+    margin: 10px;
+    height: max-content;
+    width: 300px;
+}
+.film:hover {
+    border-left: solid 10px grey;
+}
+.film:active {
+    opacity: 0.5;
+}
+/* Fin HOVER CARTES */
+
+.text{
+    margin: 0 5px;
+}
+.img_film{
+    width: auto;
+    display: flex;
+}
+
+.titre{
+    position: relative;
+    left: -290px;
+    bottom: -60px;
+    top: auto;
+    color: white;
+}
+
+
+    @media screen and (max-width: 970px) {
+        .container {
+            flex-wrap: wrap;
+            }
+        }
+
+   

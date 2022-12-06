@@ -1,0 +1,49 @@
+.header {
+  border-bottom: 2px solid #6aadf2;
+  padding: 10, 10, 10, 10;
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.title {
+  margin-left: 25%;
+  padding-top: 2%;
+  color: #6aadf2;
+  text-align: "center";
+}
+.picture {
+  width: 120px;
+  height: 120px;
+}
+
+.blockContainer {
+  display: flex;
+}
+
+.borderColor {
+  background-color: #6aadf2;
+  margin-right: 2%;
+  padding: 10px 10px 10px 10px;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: left;
+}
+
+.titleValue {
+  color: #6aadf2;
+}
+
+.citation {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.body {
+  padding-left: 5%;
+}

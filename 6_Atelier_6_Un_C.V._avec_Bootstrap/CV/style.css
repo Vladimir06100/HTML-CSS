@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#body {
+    color: white;
+    background-color: #486278;
+  
+}
+.boite_principale {
+background-color: #486278;
+}
+.image{
+    width: 100%;
+}
+
+.boite-gauche {
+    padding-right: 0%;
+}
+.progress-bar {
+    background-color: #affe11 !important;
+}
+
+.Nom {
+    color: #affe11;
+}
+.text-primary {
+   color: #affe11;
+}
+

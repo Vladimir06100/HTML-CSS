@@ -1,0 +1,86 @@
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: #d82c2c;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+}
+
+.titleFilm {
+  position: relative;
+  bottom: 51px;
+  left: 11%;
+  color: white;
+  font-size: 22px;
+}
+
+.paragraph::first-letter {
+  color: #d82c2c;
+  font-size: 18px;
+}
+
+.flexbox {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.divTitre {
+  position: absolute;
+}
+
+.colorReview {
+  color: #d82c2c;
+}
+
+.containerReview:hover {
+  border-left: 5px solid grey;
+  background-color: ghostwhite;
+
+  width: fit-content;
+  flex: 1;
+}
+
+.containerReview:active {
+  border-left: 5px solid grey;
+  opacity: 0.5;
+  background-color: ghostwhite;
+
+  width: fit-content;
+  flex: 1;
+}
+
+.blockName {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerReview {
+  border-left: 5px solid red;
+  background-color: ghostwhite;
+  margin-right: 1%;
+  width: fit-content;
+  flex: 1;
+}
+
+.containerReviewFinal {
+  border-left: 5px solid red;
+  background-color: ghostwhite;
+}
+
+@media screen and (max-width: 800px) {
+
+  /*change 800 to your break point */
+  .flexbox {
+    flex-direction: column;
+  }
+}
